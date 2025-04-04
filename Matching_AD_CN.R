@@ -21,7 +21,7 @@ match <- matchit(diagnosis_binary  ~ age + education + sex, data = data, method 
 
 summary(match)
 
-# Evaluate balance 
+
 plot(match)
 
 
